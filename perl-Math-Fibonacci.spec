@@ -10,7 +10,8 @@ Summary(pl):	Modu³ Perla Math::Fibonacci - liczby Fibonacciego
 Name:		perl-Math-Fibonacci
 Version:	1.5
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	155d00ebe1a528ace70510f38959622a
