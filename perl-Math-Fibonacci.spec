@@ -28,7 +28,7 @@ Ten modu³ udostêpnia kilka funkcji zwi±zanych z liczbami Fibonacciego.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
