@@ -30,7 +30,7 @@ Ten modu³ udostêpnia kilka funkcji zwi±zanych z liczbami Fibonacciego.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
