@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Math
-%define		pnam	Fibonacci
+%define	pdir	Math
+%define	pnam	Fibonacci
 Summary:	Math::Fibonacci Perl module - Fibonacci numbers
 Summary(pl):	Modu³ Perla Math::Fibonacci - liczby Fibonacciego
 Name:		perl-Math-Fibonacci
