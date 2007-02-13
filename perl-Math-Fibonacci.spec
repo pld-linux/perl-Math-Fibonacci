@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Fibonacci
 Summary:	Math::Fibonacci Perl module - Fibonacci numbers
-Summary(pl.UTF-8):   Moduł Perla Math::Fibonacci - liczby Fibonacciego
+Summary(pl.UTF-8):	Moduł Perla Math::Fibonacci - liczby Fibonacciego
 Name:		perl-Math-Fibonacci
 Version:	1.5
 Release:	2
