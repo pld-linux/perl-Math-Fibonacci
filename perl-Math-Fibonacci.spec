@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	Fibonacci
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Fibonacci Perl module - Fibonacci numbers
 Summary(pl.UTF-8):	Moduł Perla Math::Fibonacci - liczby Fibonacciego
 Name:		perl-Math-Fibonacci
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	155d00ebe1a528ace70510f38959622a
+URL:		http://search.cpan.org/dist/Math-Fibonacci/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
