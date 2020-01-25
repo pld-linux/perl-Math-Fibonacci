@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	Fibonacci
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Fibonacci Perl module - Fibonacci numbers
 Summary(pl.UTF-8):	Moduł Perla Math::Fibonacci - liczby Fibonacciego
 Name:		perl-Math-Fibonacci
